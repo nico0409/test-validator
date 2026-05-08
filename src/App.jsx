@@ -63,7 +63,9 @@ const App = () => {
       <header className="bg-[#1981c2] h-[80px] w-full flex items-center px-8 shadow-sm">
         <div className="flex items-center ml-[2%]">
           {/* Cencosud Logo */}
-          <img src={cencosudLogo} alt="Cencosud" className="h-[65px] w-auto object-contain" />
+          <a href="http://miportal.cencosud.com/" title="Ir al Portal Cencosud">
+            <img src={cencosudLogo} alt="Cencosud" className="h-[65px] w-auto object-contain cursor-pointer hover:opacity-90 transition-opacity" />
+          </a>
         </div>
       </header>
 
