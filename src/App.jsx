@@ -116,7 +116,7 @@ const App = () => {
                       </svg>
                     </div>
                   ) : robotChecked ? (
-                    <div 
+                    <div
                       className="w-7 h-7 flex items-center justify-center cursor-pointer"
                       onClick={handleRecaptchaClick}
                     >
@@ -125,7 +125,7 @@ const App = () => {
                       </svg>
                     </div>
                   ) : (
-                    <div 
+                    <div
                       className="w-7 h-7 border-[2px] border-[#c1c1c1] bg-white rounded-[2px] cursor-pointer hover:border-[#b2b2b2] transition-colors"
                       onClick={handleRecaptchaClick}
                     ></div>
@@ -144,7 +144,7 @@ const App = () => {
                 {error}
               </div>
             )}
-            
+
             <div className="flex justify-end pt-2">
               <button
                 onClick={handleValidar}
@@ -200,7 +200,7 @@ const App = () => {
 
                 <div>
                   <span className="text-gray-500 uppercase text-[11px] font-bold tracking-wider">Sueldo Bruto Mensual</span>
-                  <div className="font-semibold text-gray-800">$3.887.680</div>
+                  <div className="font-semibold text-gray-800">$2.887.680</div>
                 </div>
               </div>
 
