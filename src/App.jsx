@@ -200,7 +200,7 @@ const App = () => {
 
                 <div>
                   <span className="text-gray-500 uppercase text-[11px] font-bold tracking-wider">Sueldo Bruto Mensual</span>
-                  <div className="font-semibold text-gray-800">$2.887.680</div>
+                  <div className="font-semibold text-gray-800">$3.887.680</div>
                 </div>
               </div>
 
